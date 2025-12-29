@@ -2,9 +2,31 @@ import navbarImage from "../assets/navbar-image.jpg";
 
 export const TrainerNav = () => {
     return (
-        <nav className="w-full flex justify-center bg-black">
+        <nav className="w-full ">
         {/* Wrapper enforces rendered size */}
-        <div className="relative w-full h-64">
+        <div className="flex md:hidden items-center justify-around px-4 h-16 bg-black">
+            <a
+            href="/"
+            className="text-white text-lg font-semibold"
+            >
+            fightschool
+            </a>
+
+            <ul className="flex gap-4 text-white text-sm">
+            <li>
+                <a href="/" className="hover:text-[#acfcc3ff] transition">
+                Home
+                </a>
+            </li>
+            <li>
+                <a href="/" className="hover:text-[#acfcc3ff] transition">
+                Trainers
+                </a>
+            </li>
+            </ul>
+        </div>
+
+        <div className="relative hidden md:block w-full h-64">
             {/* Navbar Image */}
             <img
             src={navbarImage}
