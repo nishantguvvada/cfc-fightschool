@@ -18,7 +18,7 @@ export const Trainer = () => {
     return (
     <div className="max-w-4xl mx-auto p-8">
       {/* Trainer Info */}
-      <h1 className="mt-8 text-3xl hover:text-[#acfcc3ff] cursor-pointer text-slate-600 font-bold">{trainer.name} {trainer.lastName}</h1>
+      <h1 className="mt-8 text-3xl hover:text-[#acfcc3ff] cursor-pointer text-slate-600 font-bold dark:text-slate-100">{trainer.name} {trainer.lastName}</h1>
 
       {/* Videos Section */}
       <div className="mt-10">
@@ -32,7 +32,7 @@ export const Trainer = () => {
                 strokeWidth="2"
                 strokeLinecap="round"
                 strokeLinejoin="round"
-                className="w-6 h-6 text-slate-600"
+                className="w-6 h-6 text-slate-600 dark:text-slate-100"
               >
                 {/* Video Frame */}
                 <rect x="2" y="5" width="20" height="16" rx="2" ry="2" />
@@ -40,7 +40,7 @@ export const Trainer = () => {
                 {/* Play Symbol */}
                 <polygon points="10 9 15 12 10 15" fill="currentColor" stroke="none" />
               </svg>
-            <p className="text-slate-800">
+            <p className="text-slate-800 dark:text-slate-100">
               Course Videos ({videos.length})
             </p>
           </li>
@@ -55,7 +55,7 @@ export const Trainer = () => {
               strokeWidth="2"
               strokeLinecap="round"
               strokeLinejoin="round"
-              className="w-6 h-6 text-slate-600"
+              className="w-6 h-6 text-slate-600 dark:text-slate-100"
             >
               {/* Outer Circle */}
               <circle cx="12" cy="12" r="9" />
@@ -66,7 +66,7 @@ export const Trainer = () => {
               {/* Stem of the "i" */}
               <line x1="12" y1="11" x2="12" y2="16" />
             </svg>
-            <p className="text-slate-800">
+            <p className="text-slate-800 dark:text-slate-100">
               About
             </p>
           </li>
@@ -81,7 +81,7 @@ export const Trainer = () => {
               <div
                 key={video.id}
                 onClick={() => { console.log(index)}}
-                className="border-b border-slate-200 p-4 hover:shadow hover:bg-slate-100 cursor-pointer transition"
+                className="border-b border-slate-200 p-4 hover:shadow hover:bg-slate-100 cursor-pointer transition dark:hover:bg-slate-400"
               >
                 <div className="flex flex-row items-start gap-4">
                   <span>
@@ -89,10 +89,10 @@ export const Trainer = () => {
                   </span>
 
                   <div>
-                    <h3 className="font-semibold text-slate-600">
+                    <h3 className="font-semibold text-slate-600 dark:text-slate-100">
                       {video.title}
                     </h3>
-                    <p className="text-sm text-slate-600 mt-8">
+                    <p className="text-sm text-slate-600 mt-8 dark:text-slate-100">
                       {video.description}
                     </p>
                   </div>

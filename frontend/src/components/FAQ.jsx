@@ -37,7 +37,7 @@ export const FAQ = () => {
         <>
             <div className="max-w-4xl mx-auto p-4 h-screen mt-24">
                 <div className="mb-4 border-b border-gray-300 pb-4">
-                    <h2 className="text-2xl font-semibold text-slate-700 hover:text-[#acfcc3ff] transition delay-300 duration-300 ease-in-out cursor-pointer">Frequently Asked Questions</h2>
+                    <h2 className="text-2xl font-semibold text-slate-700 hover:text-[#acfcc3ff] transition delay-300 duration-300 ease-in-out cursor-pointer dark:text-slate-100">Frequently Asked Questions</h2>
                 </div>
 
                 <div className="divide-y divide-gray-300">
@@ -47,14 +47,14 @@ export const FAQ = () => {
                         return (
                             <div key={index} className="accordion" role="accordion">
                                 <button type="button" onClick={() => toggleFAQ(index)} className="toggle-button cursor-pointer w-full text-base outline-none text-left font-medium py-6 text-slate-700 hover:text-[#26d66b] flex items-center">
-                                    <span className="mr-4">{faq.question}</span>
+                                    <span className="mr-4 dark:text-slate-100">{faq.question}</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" className="w-[14px] h-[14px] fill-current ml-auto shrink-0">
                                     <path d="M40.421 215.579H471.579C493.868 215.579 512 233.711 512 256s-18.132 40.421-40.421 40.421H40.421C18.132 296.421 0 278.289 0 256s18.132-40.421 40.421-40.421z" />
                                     <path className={`${isOpen ? "plus hidden" : "plus"}`} d="M215.579 40.421C215.579 18.132 233.711 0 256 0s40.421 18.132 40.421 40.421v431.158C296.421 493.868 278.289 512 256 512s-40.421-18.132-40.421-40.421V40.421z" />
                                     </svg>
                                 </button>
                                 <div className={`${isOpen ? "content pb-2 max-h-[1000px]": "content invisible max-h-0"} overflow-hidden transition-all duration-300`}>
-                                    <p className="text-[15px] text-slate-600 leading-relaxed">
+                                    <p className="text-[15px] text-slate-600 leading-relaxed dark:text-slate-100">
                                         {faq.answer}
                                     </p>
                                 </div>

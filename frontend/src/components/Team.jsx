@@ -6,8 +6,8 @@ export const Team = () => {
             <div className="p-4 pb-8 mt-24">
                 <div className="max-w-5xl max-lg:max-w-2xl mx-auto">
                     <div className="max-w-2xl mx-auto text-center pb-4">
-                        <h2 className="text-slate-700 text-3xl md:text-4xl font-bold hover:text-[#acfcc3ff] transition delay-300 duration-300 ease-in-out cursor-pointer">Meet the trainers</h2>
-                        <p className="text-slate-600 text-[15px] mt-6 leading-relaxed">We’re a group of close-combat sport professionals committed to providing high-quality training content. Our diverse skills and collaborative spirit drive trainings.</p>
+                        <h2 className="text-slate-700 text-3xl md:text-4xl font-bold hover:text-[#acfcc3ff] transition delay-300 duration-300 ease-in-out cursor-pointer dark:text-slate-100">Meet the trainers</h2>
+                        <p className="text-slate-600 text-[15px] mt-6 leading-relaxed dark:text-slate-100">We’re a group of close-combat sport professionals committed to providing high-quality training content. Our diverse skills and collaborative spirit drive trainings.</p>
                     </div>
 
                     {/* <div className="grid lg:grid-cols-3 md:grid-cols-2 gap-8 max-md:justify-center mt-12 max-md:max-w-xs mx-auto">
