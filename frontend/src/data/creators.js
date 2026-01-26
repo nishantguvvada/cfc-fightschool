@@ -21,7 +21,7 @@ const creators = [
     id: 3,
     name: "Nilesh",
     lastName: "Chaudhary",
-    image: "https://instagram.fdel1-7.fna.fbcdn.net/v/t51.82787-15/604122881_17975449367967242_7901269260384580840_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&ig_cache_key=Mzc5Mzg1ODQ0NDk4NjUyNDM0Mg%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6InhwaWRzLjE0NDB4MTA4MC5zZHIuQzMifQ%3D%3D&_nc_ohc=F0T88ioa7MsQ7kNvwGoNafR&_nc_oc=AdnGUlnEIZ4XdvnM3voucNaMSauy99Eop7EafwKZl_N48XsbBqLe0YlGCfR8OUemcINsUG5u1OJSlSjxi0sA9OdY&_nc_ad=z-m&_nc_cid=1174&_nc_zt=23&_nc_ht=instagram.fdel1-7.fna&_nc_gid=vBQjyJMDr6XPR5Q9zKzoHw&oh=00_AfmXtINXrgYP8R2w1YWrNMImV2eVN0-KBsnKs2zAfKQG3A&oe=6954361A",
+    image: "https://i.postimg.cc/brV9xWtd/494218662-17949064187967242-4064724752636667562-n.jpg",
     courses: 4,
     videos: 10,
     cta: "Subscribe from $12.99/mth",
